@@ -19,7 +19,7 @@ use it without guide, if not see that example
 ;whatever('*', 'errorz')
 ;function howdyworld (){
 ;echo 'hello world
-';
+;'
 ;}
 ;function  errorz( $page) {
 ;  echo "i'm sorry, but..."
