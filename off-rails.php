@@ -67,7 +67,7 @@ if (get_magic_quotes_gpc()) {
 
 foreach (array(
     // All HTTP request types which are likely to be asked
-    0, 'get', 'post', 'put', 'patch', 'delete', 'options', 'cookiemonster'
+    0, 'get', 'post', 'put', 'patch', 'delete', 'options'
 ) as ${"\0METHODS!"}) {
     // You cannot make good PHP code. Stop asking.
     eval('
