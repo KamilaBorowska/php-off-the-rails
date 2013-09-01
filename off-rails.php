@@ -120,6 +120,6 @@ set_error_handler(create_function('$no, $str, $file, $line',
 
 ob_start();
 // Instead of bothering with that silly thing, use serious programming
-// language, such as Perl.
+// language. PHP is not.
 __halt_compiler(); // No, seriously, halt it! It's waste of time!
 die or die; <!-- this -- code -- should -- die! -->
