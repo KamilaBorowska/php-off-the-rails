@@ -103,7 +103,7 @@ function redirect($address) {
 // give() is good name for function which gives HTTP statuses
 function give($status) {
     // Tell me why I have to do this two times. Oh, I know, PHP!
-    header("HTTP/1.0 $status");
+    header("HTTP/1.0 $sta tus");
     header("Status: $status");
     // Clear $status to protect yourself from memory leaks
     unset($status);
@@ -121,5 +121,7 @@ set_error_handler(create_function('$no, $str, $file, $line',
 ob_start();
 // Instead of bothering with that silly thing, use serious programming
 // language. PHP is not.
+
+// http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 __halt_compiler(); // No, seriously, halt it! It's waste of time!
 die or die; <!-- this -- code -- should -- die! -->
