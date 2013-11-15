@@ -25,7 +25,9 @@ use it without guide, if not see that example
 ;  echo "i'm sorry, but..."
 ;   echo "$page doesn't exist!"
 ;echo 'would you like to create it'
+; goto leave;
 ;      echo 'that would be fatal error, so i leaf'
+; leave:
 ;}
 ;//?>
 ```
