@@ -2,7 +2,7 @@
 /*
  * PHP off the Rails
  *
- * Copyright (c) 2012, GlitchMr <glitchmr@myopera.com>
+ * Copyright (c) 2012-2013, Konrad Borowski <x.fix@o2.pl>
  * 
  * Permission to use, copy, modify, and/or distribute this
  * software for any purpose with or without fee is hereby
