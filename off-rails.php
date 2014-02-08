@@ -103,7 +103,7 @@ function redirect($address) {
 // give() is good name for function which gives HTTP statuses
 function give($status) {
     // Tell me why I have to do this two times. Oh, I know, PHP!
-    header("HTTP/1.0 $sta tus");
+    header("HTTP/1.0 $status");
     header("Status: $status");
     // Clear $status to protect yourself from memory leaks
     unset($status);
