@@ -36,7 +36,7 @@ error_reporting(-1);
 error_reporting(-1);
 error_reporting(-1);
 
-if (!isset($_SERVER['REQUEST_METHOD']))
+if (empty($_SERVER['REQUEST_METHOD']))
     die("Stop wasting my time running me on CLI!\n");
 
 if (get_magic_quotes_gpc()) {
